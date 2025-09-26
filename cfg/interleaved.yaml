@@ -1,0 +1,26 @@
+hyper:
+  seed: 42
+  epochs: 20
+  lr: 0.0002
+  train_batch_size: 1
+  val_batch_size: 1
+  grad_accumulation: 2
+model:
+  predict_with_generate: True
+  generation_max_new_tokens: 300
+  generation_num_beams: 1
+eval:
+  eval_strategy: "steps"
+  eval_steps: 100000
+  metric: "task_acc"
+save:
+  save_strategy: "steps"
+  save_steps: 200
+logging:
+  logging_step: 500
+action_token_generation:
+  min_dxy: -2.46
+  max_dxy: 2.46
+  min_dyaw: -2.82
+  max_dyaw: 2.82
+  bin_step: 0.01

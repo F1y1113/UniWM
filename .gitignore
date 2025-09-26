@@ -1,0 +1,28 @@
+# (.log, .out)
+*.log
+*.out
+*.gz
+
+# in/output
+output/
+data_samples
+models
+zero/
+models/
+cross.zip
+
+* copy.py
+* copy.sh
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# (venv, env)
+venv/
+env/
+.env
+
+.vscode/
+.idea/
