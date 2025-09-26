@@ -1,7 +1,7 @@
 <br>
 <p align="center">
 
-<h1 align="center"><strong>Unified World Models: Memory-Augmented<br>Planning and Foresight for Visual Navigation</strong></h1>
+<h1 align="center"><strong>🌍 Unified World Models: Memory-Augmented<br>Planning and Foresight for Visual Navigation</strong></h1>
   <p align="center"><span><a href=""></a></span>
               <a>Yifei Dong<sup>*</sup>,</a>
               <a>Fengyi Wu<sup>*</sup>,</a>
