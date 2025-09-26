@@ -3,10 +3,10 @@
 
 <h1 align="center"><strong>Unified World Models: Memory-Augmented<br>Planning and Foresight for Visual Navigation</strong></h1>
   <p align="center"><span><a href=""></a></span>
-              <a>Yifei Dong<sup>#</sup>,</a>
-              <a>Fengyi Wu<sup>#</sup>,</a>
-             <a>Guangyu Chen<sup>#</sup>,</a>
-              <a>Zhi-Qi Cheng<sup>*</sup>,</a>
+              <a>Yifei Dong<sup>*</sup>,</a>
+              <a>Fengyi Wu<sup>*</sup>,</a>
+             <a>Guangyu Chen<sup>*</sup>,</a>
+              <a>Zhi-Qi Cheng<sup>†</sup>,</a>
               <a>Qiyu Hu,</a>
               <a>Yuxuan Zhou,</a>
               <a>Jingdong Sun,</a>
@@ -14,7 +14,7 @@
               <a>Qi Dai,</a>
               <a>Alexander G Hauptmann</a>
     <br>
-    <sup>#</sup>Equal Contribution, <sup>2</sup>Corresponding author<br>
+    <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding author<br>
   </p>
     
 <p align="center">
