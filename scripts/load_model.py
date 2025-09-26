@@ -16,7 +16,7 @@ def load_model(args, training_cfg):
 
         # Use MemoryBankAnoleForConditionalGeneration for prediction tasks
         if args.use_memory_bank_inference and args.do_task_level_eval and not args.do_train:
-            from model_utils.memory_bank_visualizer import MemoryBankAnoleForConditionalGeneration
+            from uniwm.memory_bank import MemoryBankAnoleForConditionalGeneration
             print("Loading MemoryBankAnoleForConditionalGeneration for prediction task")
             model = MemoryBankAnoleForConditionalGeneration.from_pretrained(
                 "leloy/Anole-7b-v0.1-hf",
@@ -26,7 +26,7 @@ def load_model(args, training_cfg):
                 codebook_sim="mse"
             )
         else:
-            from model_utils.wrapped_visualizer import AnoleforConditionalGeneration
+            from uniwm.wrapped_visualizer import AnoleforConditionalGeneration
             model = AnoleforConditionalGeneration.from_pretrained(
                 "leloy/Anole-7b-v0.1-hf",
                 device_map="cuda",
