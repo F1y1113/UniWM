@@ -1,6 +1,39 @@
-UniWM
+<br>
+<p align="center">
 
-we provide full code for training and evaluation here.
+<h1 align="center"><strong>Unified World Models: Memory-Augmented<br>Planning and Foresight for Visual Navigation</strong></h1>
+  <p align="center"><span><a href=""></a></span>
+              <a>Yifei Dong<sup>#</sup>,</a>
+              <a>Fengyi Wu<sup>#</sup>,</a>
+             <a>Guangyu Chen<sup>#</sup>,</a>
+              <a>Zhi-Qi Cheng<sup>*</sup>,</a>
+              <a>Qiyu Hu,</a>
+              <a>Yuxuan Zhou,</a>
+              <a>Jingdong Sun,</a>
+              <a>Jun-Yan He,</a>
+              <a>Qi Dai,</a>
+              <a>Alexander G Hauptmann</a>
+    <br>
+    <sup>#</sup>Equal Contribution, <sup>2</sup>Corresponding author<br>
+  </p>
+    
+<p align="center">
+  <a href="https://arxiv.org/abs/" target="_blank">
+    <img src="https://img.shields.io/badge/ArXiv-2508.09547-red">
+  </a>
+  <a href="https://github.com/F1y1113/UniWM" target="_blank">
+    <img src="https://img.shields.io/badge/Project-UniWM-blue">
+  </a>
+<a href="https://github.com/F1y1113/UniWM" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-green">
+</a>
+</p>
+
+<p align="center">
+  <img src="assists/comparison.png" alt="task" width="660"/>
+</p>
+
+**UniWM** introduce a unified, memory-augmented world model paradigm integrating egocentric visual foresight and planning within a single multimodal autoregressive backbone. Unlike modular frameworks, UniWM explicitly grounds action decisions in visually imagined outcomes, ensuring tight alignment between visualization and planning. A hierarchical memory mechanism further integrates detailed short-term perceptual cues with longer-term trajectory context, enabling stable, coherent reasoning over extended horizons.
 
 ## Quick Start
 
@@ -12,6 +45,10 @@ pip install -r requirements.txt --user
 ```
 
 ## Implementation
+
+### Data
+
+We now release a partial dataset for the purpose of debugging and demonstrating the data format. You can find them in [data_samples](data_samples/)
 
 ### Training
 
@@ -65,5 +102,10 @@ torchrun --nproc_per_node=<GPU_NUM_PER_NODE> train.py \
 `--do_rollout_eval`: Generates a full trajectory autoregressively (i.e., the model uses its own previous predictions and ground truth actions as input for the next step) and evaluates the result.
 
 
+## Acknowledgement
 
-We would like to thank "ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation", "Chameleon: Mixed-Modal Early-Fusion Foundation Models", and "Imagine while Reasoning in Space: Multimodal Visualization-of-Thought" for their publicly available codebase, which we referenced during the implementation of Anole training.
+We would like to thank [ANOLE](https://arxiv.org/abs/2407.06135) and [MVOT](https://arxiv.org/abs/2501.07542) for their publicly available codebase, which we referenced during the implementation of Anole training.
+
+## 🌟 Citation
+
+If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
