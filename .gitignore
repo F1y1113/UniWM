@@ -5,7 +5,6 @@
 
 # in/output
 output/
-data_samples
 models
 zero/
 models/
