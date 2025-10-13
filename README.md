@@ -12,7 +12,7 @@
               <a>Jingdong Sun<sup>2</sup>,</a>
               <a>Jun-Yan He<sup>1</sup>,</a>
               <a>Qi Dai<sup>3</sup>,</a>
-              <a>Alexander G Hauptmann<sup>2</sup>,</a>
+              <a>Alexander G Hauptmann<sup>2</sup></a>
     <br>
     <sup>1</sup>University of Washington, <sup>2</sup>Carnegie Mellon University, <sup>3</sup>Microsoft Research<br>   
   </p>
