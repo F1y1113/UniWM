@@ -109,3 +109,14 @@ We would like to thank [ANOLE](https://arxiv.org/abs/2407.06135) and [MVOT](http
 ## 🌟 Citation
 
 If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
+```bibtex
+@misc{dong2025unifiedworldmodelsmemoryaugmented,
+      title={Unified World Models: Memory-Augmented Planning and Foresight for Visual Navigation}, 
+      author={Yifei Dong and Fengyi Wu and Guangyu Chen and Zhi-Qi Cheng and Qiyu Hu and Yuxuan Zhou and Jingdong Sun and Jun-Yan He and Qi Dai and Alexander G Hauptmann},
+      year={2025},
+      eprint={2510.08713},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2510.08713}, 
+}
+```
