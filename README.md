@@ -18,8 +18,8 @@
   </p>
     
 <p align="center">
-  <a href="https://arxiv.org/abs/" target="_blank">
-    <img src="https://img.shields.io/badge/ArXiv-2508.09547-red">
+  <a href="https://arxiv.org/abs/2510.08713" target="_blank">
+    <img src="https://img.shields.io/badge/ArXiv-2510.08713-red">
   </a>
   <a href="https://github.com/F1y1113/UniWM" target="_blank">
     <img src="https://img.shields.io/badge/Project-UniWM-blue">
