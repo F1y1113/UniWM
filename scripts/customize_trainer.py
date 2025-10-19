@@ -42,7 +42,7 @@ from scripts.training_arguments import WrappedSeq2SeqTrainingArguments
 from scripts.postprocess_logits_utils import split_token_sequence
 from scripts.action_utils import generate_bin_tokens, extract_bin_values, DATASET_RANGES, DEFAULT_RANGES, action_to_text
 from uniwm.memory_bank import MemoryBankAnoleForConditionalGeneration
-from scripts.prompt_builder import build_action_prompt, build_joint_prompt, build_viz_prompt
+from scripts.prompt_builder import build_action_prompt, build_viz_prompt
 from scripts.metrics import coords_to_evo_traj, eval_ate_rpe, ImageMetricsCalculator
 
 
