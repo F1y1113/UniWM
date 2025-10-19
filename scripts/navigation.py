@@ -60,8 +60,8 @@ class NavigationDataset(datasets.GeneratorBasedBuilder):
         random.seed(42)
         random.shuffle(all_traj_names)
 
-        total_used_ratio = 0.003  # Use 100% of the data, change to 0.5 to use 50%
-        train_ratio, dev_ratio, test_ratio = 0.4, 0.3, 0.02
+        total_used_ratio = 1  # Use 100% of the data, change to 0.5 to use 50%
+        train_ratio, dev_ratio, test_ratio = 0.9, 0.05, 0.05
         # total_used_ratio = 0.002  # Use 100% of the data, change to 0.5 to use 50%
         # train_ratio, dev_ratio, test_ratio = 0.5, 0.3, 0.2
         total_count = int(len(all_traj_names) * total_used_ratio)
