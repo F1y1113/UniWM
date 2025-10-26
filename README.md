@@ -101,6 +101,9 @@ torchrun --nproc_per_node=<GPU_NUM_PER_NODE> train.py \
 
 `--do_rollout_eval`: Generates a full trajectory autoregressively (i.e., the model uses its own previous predictions and ground truth actions as input for the next step) and evaluates the result.
 
+## Contributing
+
+We welcome contributions to this project! Please contact yfeidong@uw.edu or fyiwu@uw.edu.
 
 ## Acknowledgement
 
