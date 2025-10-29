@@ -35,6 +35,8 @@
 
 **UniWM** introduce a unified, memory-augmented world model paradigm integrating egocentric visual foresight and planning within a single multimodal autoregressive backbone. Unlike modular frameworks, UniWM explicitly grounds action decisions in visually imagined outcomes, ensuring tight alignment between visualization and planning. A hierarchical memory mechanism further integrates detailed short-term perceptual cues with longer-term trajectory context, enabling stable, coherent reasoning over extended horizons.
 
+You are also welcome to explore our previous work, including [**GOViG**](https://github.com/F1y1113/GoViG), which introduces a new task that we leverage multimodal LLM reasoning to generate navigation instructions directly from egocentric visual observations of the initial and goal states and [**HA-VLN**](https://github.com/F1y1113/HA-VLN/), where we introduce HA-VLN 2.0, a unified benchmark coupling discrete (DE) and continuous (CE) navigation paradigms with explicit social-awareness constraints.
+
 ## Quick Start
 
 ```bash
