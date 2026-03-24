@@ -1,21 +1,24 @@
 <br>
 <p align="center">
 
-<h1 align="center"><strong>🌍 Unified World Models: Memory-Augmented<br>Planning and Foresight for Visual Navigation</strong></h1>
-  <p align="center"><span><a href=""></a></span>
-              <a>Yifei Dong<sup>1,*</sup>,</a>
-              <a>Fengyi Wu<sup>1,*</sup>,</a>
-             <a>Guangyu Chen<sup>1,*</sup>,</a>
-              <a>Zhi-Qi Cheng<sup>1,†</sup>,</a>
-              <a>Qiyu Hu<sup>1</sup>,</a>
-              <a>Yuxuan Zhou<sup>1</sup>,</a>
-              <a>Jingdong Sun<sup>2</sup>,</a>
-              <a>Jun-Yan He<sup>1</sup>,</a>
-              <a>Qi Dai<sup>3</sup>,</a>
-              <a>Alexander G Hauptmann<sup>2</sup></a>
-    <br>
-    <sup>1</sup>University of Washington, <sup>2</sup>Carnegie Mellon University, <sup>3</sup>Microsoft Research<br>   
-  </p>
+
+<h1 align="center">🌍 Towards <ins>Uni</ins>fied <ins>W</ins>orld <ins>M</ins>odels for Visual Navigation<br>via Memory-Augmented Planning and Foresight</h1>
+<p align="center">
+  <a>Yifei Dong<sup>1,*</sup>,</a>
+  <a>Fengyi Wu<sup>1,*</sup>,</a>
+  <a>Guangyu Chen<sup>1,*</sup>,</a>
+  <a>Lingdong Kong<sup>2</sup>,</a>
+  <a>Xu Zhu<sup>1</sup>,</a>
+  <a>Qiyu Hu<sup>1</sup>,</a>
+  <a>Yuxuan Zhou<sup>1</sup>,</a>
+  <a>Jingdong Sun<sup>3</sup>,</a>
+  <a>Jun-Yan He<sup>1</sup>,</a>
+  <a>Qi Dai<sup>4</sup>,</a>
+  <a>Alexander G. Hauptmann<sup>5</sup>,</a>
+  <a>Zhi-Qi Cheng<sup>1,†</sup></a>
+  <br>
+  <sup>1</sup>UW, <sup>2</sup>NUS, <sup>3</sup>Apple, <sup>4</sup>Microsoft Research, <sup>5</sup>CMU
+</p>
     
 <p align="center">
   <a href="https://arxiv.org/abs/2510.08713" target="_blank">
