@@ -2,7 +2,7 @@
 <p align="center">
 
 
-<h1 align="center">🌍 Towards <ins>Uni</ins>fied <ins>W</ins>orld <ins>M</ins>odels for Visual Navigation<br>via Memory-Augmented Planning and Foresight</h1>
+<h1 align="center">🌍 Towards <ins>Uni</ins>fied <ins>W</ins>orld <ins>M</ins>odels for Visual Navigation via Memory-Augmented Planning and Foresight</h1>
 <p align="center">
   <a>Yifei Dong<sup>1,*</sup>,</a>
   <a>Fengyi Wu<sup>1,*</sup>,</a>
