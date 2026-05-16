@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node 1 --master_port=20002 train.py \
+CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 --master_port=20002 train.py \
 --model anole \
 --model_ckpt [model_ckpt path] \
 --data scand \
@@ -9,4 +9,4 @@ CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node 1 --master_port=20002 train.py 
 --output output \
 --note eval \
 --report_to none \
---do_task_level_eval \
+--do_task_level_eval 
