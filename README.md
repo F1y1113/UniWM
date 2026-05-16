@@ -96,7 +96,7 @@ To train the model on multiple datasets, use the following `torchrun` command. T
 torchrun --nproc_per_node={GPU_NUM_PER_NODE} train.py \
     --model anole \
     --data go_stanford,scand,sacson,recon \
-    --data_dir /path/to/your/data_samples \
+    --data_dir ./data \
     --decoder_type anole \
     --image_seq_length 784 \
     --input_format anole \
@@ -116,7 +116,7 @@ torchrun --nproc_per_node=<GPU_NUM_PER_NODE> train.py \
     --model anole \
     --model_ckpt /path/to/your/checkpoint \
     --data go_stanford,scand,sacson,recon \
-    --data_dir /path/to/your/data_samples \
+    --data_dir ./data \
     --decoder_type anole \
     --image_seq_length 784 \
     --input_format anole \
