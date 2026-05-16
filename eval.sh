@@ -2,7 +2,7 @@ CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node 1 --master_port=20002 train.py 
 --model anole \
 --model_ckpt [model_ckpt path] \
 --data scand \
---data_dir [dataset path] \
+--data_dir ./data \
 --decoder_type anole \
 --image_seq_length 784 \
 --input_format anole \
