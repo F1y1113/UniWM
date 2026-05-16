@@ -47,10 +47,9 @@ You are also welcome to explore our previous work, including [**GOViG**](https:/
 ## Quick Start
 
 ```bash
-conda create -n uniwm python=3.10
+conda create -n uniwm python=3.10 -y
 conda activate uniwm
-pip install torch==2.4.0
-pip install -r requirements.txt --user
+bash install.sh
 ```
 
 ## Implementation
