@@ -86,8 +86,6 @@ data/
 
 Each `traj_xxxx/` folder contains a sequence of egocentric frames (`0.jpg`, `1.jpg`, ..., `n.jpg`) and a `traj_data.pkl` file storing the per-step metadata (e.g., actions, poses) for that trajectory. The other splits follow the same layout.
 
-Then point `--data_dir` to this folder in the training/evaluation scripts (e.g., `--data_dir ./data`).
-
 
 
 ### Training
