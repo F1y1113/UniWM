@@ -22,15 +22,19 @@
     
 <p align="center">
   <a href="https://arxiv.org/abs/2510.08713" target="_blank">
-    <img src="https://img.shields.io/badge/ArXiv-2510.08713-red">
+    <img src="https://img.shields.io/badge/ArXiv-2510.08713-red?logo=arxiv&logoColor=white">
   </a>
   <a href="https://github.com/F1y1113/UniWM" target="_blank">
-    <img src="https://img.shields.io/badge/Project-UniWM-blue">
+    <img src="https://img.shields.io/badge/Project-UniWM-blue?logo=github&logoColor=white">
   </a>
-<a href="https://github.com/F1y1113/UniWM" target="_blank">
-    <img src="https://img.shields.io/badge/License-MIT-green">
-</a>
+  <a href="https://huggingface.co/datasets/fly1113/UniWM_Dataset" target="_blank">
+    <img src="https://img.shields.io/badge/Dataset-UniWM_Dataset-yellow?logo=huggingface&logoColor=white">
+  </a>
+  <a href="https://github.com/F1y1113/UniWM" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-green?logo=open-source-initiative&logoColor=white">
+  </a>
 </p>
+
 
 <p align="center">
   <img src="assists/comparison.png" alt="task" width="660"/>
@@ -53,7 +57,38 @@ pip install -r requirements.txt --user
 
 ### Data
 
-We now release a partial dataset for the purpose of debugging and demonstrating the data format. You can find them in [data_samples](data_samples/)
+We host the UniWM dataset on Hugging Face: [`fly1113/UniWM_Dataset`](https://huggingface.co/datasets/fly1113/UniWM_Dataset). 
+
+- [`go_stanford`](https://huggingface.co/datasets/fly1113/UniWM_Dataset/resolve/main/go_stanford.tar), [`recon`](https://huggingface.co/datasets/fly1113/UniWM_Dataset/resolve/main/recon.tar), [`sacson`](https://huggingface.co/datasets/fly1113/UniWM_Dataset/resolve/main/sacson.tar), [`scand`](https://huggingface.co/datasets/fly1113/UniWM_Dataset/resolve/main/scand.tar) used for both training and evaluation.
+- [`tartandrive`](https://huggingface.co/datasets/fly1113/UniWM_Dataset/resolve/main/tartandrive.tar) reserved for unseen evaluation only.
+
+To download and extract all splits into `data/` with a single command:
+
+```bash
+bash download_data.sh
+```
+
+After extraction, the directory structure will look like:
+
+```
+data/
+├── go_stanford/
+│   ├── traj_0000/
+│   │   ├── 0.jpg
+│   │   ├── 1.jpg
+│   │   ├── ...
+│   │   ├── n.jpg
+│   │   └── traj_data.pkl
+│   ├── traj_0001/
+│   └── ...
+└── ...
+```
+
+Each `traj_xxxx/` folder contains a sequence of egocentric frames (`0.jpg`, `1.jpg`, ..., `n.jpg`) and a `traj_data.pkl` file storing the per-step metadata (e.g., actions, poses) for that trajectory. The other splits follow the same layout.
+
+Then point `--data_dir` to this folder in the training/evaluation scripts (e.g., `--data_dir ./data`).
+
+
 
 ### Training
 
